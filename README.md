@@ -1,4 +1,6 @@
 sill663demo
 ===========
 
-sils663-simple-vra-demo-drupal-content-types
+demo_flickr_importer
+simple_vra_demo
+flickr script

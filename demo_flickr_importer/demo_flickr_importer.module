@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Demo Flickr Importer feature.
+ */
+
+include_once 'demo_flickr_importer.features.inc';
