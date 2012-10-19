@@ -41,10 +41,19 @@ Type"
 2. Install the following Drupal Modules
    a. Feeds
    b. Feeds Tamper
-   c. Entityapi 
-3. Copy these two module directories to sites/all/modules/custom
-4. Activate these two modules under the "features" at admin/structure/features
-5. Try adding some data. 
+   c. Entity 
+   d. Entity Reference
+   e. Date
+   d. Features
+   c. Ctools
+3. Download and unzip the code from github
+   https://github.com/kevinreiss/sils663demo/zipball/master
+5. The extracted directory should be named something like
+   "kevinreiss-sils663demo-bff694d"  
+6. Rename the directory to "custom" and copy to the sites/all/modules directory of your Drupal installation
+   directories
+7. Activate these two modules under the "features" at admin/structure/features
+8. Try adding some data. 
 
 
 ## Sample Data Import
