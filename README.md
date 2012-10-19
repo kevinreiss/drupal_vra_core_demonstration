@@ -1,12 +1,14 @@
 # SILS 663 drupal demo modules
 
-## Contains
+## Description
 
 A set of sample content types and taxonomy definitions corresponding to
-the simple VRA demo presented in Class.
+the simple VRA demo presented in class. Also contains the a basic CSV
+importer for the "Image" content type with a sample import file that can
+be used. 
 
 Append all the admin paths to the base URL of your drupal site to access
-the menu options at that path. If you site is http://mydrupalsite.com
+the menu options at that path. If your URL is http://mydrupalsite.com
 the path the content types listings would be
 http://mydrupalsite.com/admin/structure/types.
 
@@ -23,7 +25,7 @@ http://mydrupalsite.com/admin/structure/types.
 ### Taxonomies at admin/structure/taxonomy
 
 *Image Tags - Free Tags that can be assinged to "Image Content Types"
-*Locations - 
+*Locations - Utilized by the "Work" content type
 *Image Work Types - Work types that can be assigned to the "image"
 content type.
 *Work Types - Work types that can be assigned to the "work" content
@@ -37,9 +39,9 @@ Type"
 
 ## To Install
 
-1. Have a functinging Drupal Instance
-2. Install the following Drupal Modules
-   a. Feeds
+1. Have a functioning Drupal instance
+2. Install the following Drupal modules
+   a. Feeds 
    b. Feeds Tamper
    c. Entity 
    d. Entity Reference
@@ -50,7 +52,7 @@ Type"
    https://github.com/kevinreiss/sils663demo/zipball/master
 5. The extracted directory should be named something like
    "kevinreiss-sils663demo-bff694d"  
-6. Rename the directory to "custom" and copy to the sites/all/modules directory of your Drupal installation
+6. Rename the directory to "custom" and copy the entire folder to the sites/all/modules directory of your Drupal installation
    directories
 7. Activate these two modules under the "features" at admin/structure/features
 8. Try adding some data. 
@@ -58,7 +60,7 @@ Type"
 
 ## Sample Data Import
 
-A very frief sample CSV import file that can be used as the basis for a
+A very brief sample CSV import file that can be used as the basis for a
 batch import is also included. This file contains
 data pulled from Flickr via the Flickr API. The example comes from
 collections that are available in Flickr's "Commons"
@@ -95,7 +97,7 @@ admin/structure/feeds/tamper/list/flickr_importer.
 ## Going Further With Flickr
 
 If you'd like to try your hand at downloading batches of data from
-flickr consult and modify this GIST https://gist.github.com/3881807 that
+flickr consult and modify this GIST at https://gist.github.com/3881807. This script
 utilizes ruby and the "flickraw" gem to interact with the API and
 download data from flickr.
 
