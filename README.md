@@ -1,4 +1,4 @@
-# sill663 drupal demo modules
+# SILS 663 drupal demo modules
 
 ## Contains
 
