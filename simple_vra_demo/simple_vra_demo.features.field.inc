@@ -724,14 +724,7 @@ function simple_vra_demo_field_default_fields() {
     ),
     'field_instance' => array(
       'bundle' => 'image',
-      'default_value' => array(
-        0 => array(
-          'tid' => 'autocreate',
-          'vid' => '6',
-          'name' => 'digital image',
-          'vocabulary_machine_name' => 'image_work_types',
-        ),
-      ),
+      'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
       'display' => array(
@@ -752,7 +745,7 @@ function simple_vra_demo_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field_image_work_type',
       'label' => 'Work Type',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),

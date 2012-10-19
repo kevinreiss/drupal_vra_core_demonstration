@@ -36,7 +36,7 @@ function demo_flickr_importer_feeds_importer_default() {
       'config' => array(
         'content_type' => 'image',
         'expire' => '-1',
-        'author' => '7',
+        'author' => '1',
         'authorize' => 1,
         'mappings' => array(
           0 => array(
