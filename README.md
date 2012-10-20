@@ -17,23 +17,23 @@ http://mydrupalsite.com/admin/structure/types.
 
 ### Content Types at admin/structure/types
 
-*Work
-*Image
-*Collection
-*License
+* Work
+* Image
+* Collection
+* License
 
 ### Taxonomies at admin/structure/taxonomy
 
-*Image Tags - Free Tags that can be assinged to "Image Content Types"
-*Locations - Utilized by the "Work" content type
-*Image Work Types - Work types that can be assigned to the "image"
+* Image Tags - Free Tags that can be assinged to "Image Content Types"
+* Locations - Utilized by the "Work" content type
+* Image Work Types - Work types that can be assigned to the "image"
 content type.
-*Work Types - Work types that can be assigned to the "work" content
+* Work Types - Work types that can be assigned to the "work" content
 type.
 
 ### Sample Importer at admin/structure/feeds
 
-*Flickr Importer - Maps data pulled from flickr into the "Image Content
+* Flickr Importer - Maps data pulled from flickr into the "Image Content
 Type"
   
 
