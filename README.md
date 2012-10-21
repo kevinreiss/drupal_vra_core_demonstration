@@ -1,4 +1,4 @@
-# SILS 663 drupal demo modules
+# SILS 663 Drupal Demonstration Modules
 
 ## Description
 
