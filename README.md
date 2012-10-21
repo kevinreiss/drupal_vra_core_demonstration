@@ -13,7 +13,7 @@ the path the content types listings would be
 http://mydrupalsite.com/admin/structure/types.
 
 
-## Content Types Installed by the Module
+## Content Types, Importers, and Viewss Installed by Demo Modules
 
 ### Content Types at admin/structure/types
 
@@ -21,6 +21,7 @@ http://mydrupalsite.com/admin/structure/types.
 * Image
 * Collection
 * License
+
 
 ### Taxonomies at admin/structure/taxonomy
 
@@ -36,6 +37,11 @@ type.
 * Flickr Importer - Maps data pulled from flickr into the "Image Content
 Type"
   
+### Views Installed at admin/structure/views
+
+* Basic Image Gallery find at http://mysite.com/gallery
+* List of Images that have been associated with Works find at
+  http://mysite.com/catalog
 
 ## To Install
 
@@ -64,6 +70,15 @@ A very brief sample CSV import file that can be used as the basis for a
 batch import is also included. This file contains
 data pulled from Flickr via the Flickr API. The example comes from
 collections that are available in Flickr's "Commons"
+
+Three sample files are provided
+
+* bb_tag_commons_drupal.csv - 7 Flickr Commons images with tags related
+  to the Brooklyn Bridge
+* commons_central_park_drupal.csv - 2 Flickr Commons images with tags
+  related to Central Park
+* random_central_park_drupal.csv - 250 random Flickr Creative Commons
+  licensed images with tags related to Central Park 
 
 ### To Use
 
