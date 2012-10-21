@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VRA Demo Views feature.
+ */
+
+include_once 'vra_demo_views.features.inc';
