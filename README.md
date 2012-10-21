@@ -47,13 +47,14 @@ Type"
 
 1. Have a functioning Drupal instance
 2. Install the following Drupal modules
-   a. Feeds 
-   b. Feeds Tamper
-   c. Entity 
-   d. Entity Reference
-   e. Date
-   d. Features
-   c. Ctools
+   1. Feeds 
+   2. Feeds Tamper
+   3. Field Group
+   4. Entity 
+   5. Entity Reference
+   6. Date
+   7. Features
+   8. Ctools
 3. Download and unzip the code from github
    https://github.com/kevinreiss/sils663demo/zipball/master
 5. The extracted directory should be named something like
