@@ -72,14 +72,8 @@ batch import is also included. This file contains
 data pulled from Flickr via the Flickr API. The example comes from
 collections that are available in Flickr's "Commons"
 
-Three sample files are provided
-
-* bb_tag_commons_drupal.csv - 7 Flickr Commons images with tags related
-  to the Brooklyn Bridge
-* commons_central_park_drupal.csv - 2 Flickr Commons images with tags
-  related to Central Park
-* random_central_park_drupal.csv - 250 random Flickr Creative Commons
-  licensed images with tags related to Central Park 
+Several sample csv files are provided. These contain images of various
+New York City Bridges, Parks, and Landmarks. 
 
 ### To Use
 
