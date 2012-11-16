@@ -91,7 +91,7 @@ individual field mappings, see
 admin/structure/feeds/flickr_importer/settings/FeedsNodeProcessor for
 the overall settings for the importer. 
 
-### Mapping into Taxonomies
+### Mapping Tags into Taxonomies
 
 The column "tags" is mapped to the the taxonomy "Image
 Tags" in the "Image" content type. In order for Drupal to process a
@@ -102,6 +102,12 @@ before they are loaded into the system. I had one processor set-up to
 split the tags columns at the "//" characters. See the "explode"
 processor set up for tags at
 admin/structure/feeds/tamper/list/flickr_importer.  
+
+### Importing other taxonmies
+
+A very basic locations taxonomy is provided in the file "locations.csv".
+This can be imported using the taxonomy CSV module,
+http://drupal.org/project/taxonomy_csv. 
 
 
 ## Going Further With Flickr
