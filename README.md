@@ -73,7 +73,8 @@ data pulled from Flickr via the Flickr API. The example comes from
 collections that are available in Flickr's "Commons"
 
 Several sample csv files are provided. These contain images of various
-New York City Bridges, Parks, and Landmarks. 
+New York City Bridges, Parks, and Landmarks. These can be found in the
+"sample_images" directory.
 
 ### To Use
 
@@ -103,10 +104,10 @@ split the tags columns at the "//" characters. See the "explode"
 processor set up for tags at
 admin/structure/feeds/tamper/list/flickr_importer.  
 
-### Importing other taxonmies
+### Importing other taxonmies 
 
-A very basic locations taxonomy is provided in the file "locations.csv".
-This can be imported using the taxonomy CSV module,
+Some very basic taxomies for locations, work types and image work types are
+provided. These are in the "sample_taxonmies" directory. This can be imported using the taxonomy CSV module,
 http://drupal.org/project/taxonomy_csv. 
 
 
