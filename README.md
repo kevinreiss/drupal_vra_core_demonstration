@@ -13,7 +13,7 @@ the path the content types listings would be
 http://mydrupalsite.com/admin/structure/types.
 
 
-## Content Types, Importers, and Viewss Installed by Demo Modules
+## Content Types, Importers, and Views Installed by Demo Modules
 
 ### Content Types at admin/structure/types
 
