@@ -12,6 +12,9 @@ the menu options at that path. If your URL is http://mydrupalsite.com
 the path the content types listings would be
 http://mydrupalsite.com/admin/structure/types.
 
+These examples are a very basic implementation of the VRA Core Schema
+http://www.vraweb.org/projects/vracore4/. 
+
 
 ## Content Types, Importers, and Views Installed by Demo Modules
 
