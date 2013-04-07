@@ -191,8 +191,8 @@ function vra_demo_views_views_default_views() {
     'image' => 'image',
   );
 
-  /* Display: Image Gallery */
-  $handler = $view->new_display('page', 'Image Gallery', 'page');
+  /* Display: Commons Gallery */
+  $handler = $view->new_display('page', 'Commons Gallery', 'page');
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Content: Title */
